@@ -1,0 +1,16 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Kernel syntax diff drivers
+*.c     diff=cpp
+*.h     diff=cpp
+*.dts   diff=dts
+*.dtsi  diff=dts
+
+# Force LF for shell scripts
+*.sh    text eol=lf
+
+# Binary files
+*.bin   binary
+*.dtb   binary
+*.dtbo  binary
